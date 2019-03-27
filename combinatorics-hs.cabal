@@ -1,0 +1,17 @@
+name:                combinatorics-hs
+version:             0.1.0.0
+license:             GPL-3
+license-file:        LICENSE
+author:              Nicholas Coltharp
+maintainer:          ncolthar@trinity.edu
+category:            Math
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Combinatorics
+  extensions:          PostfixOperators
+  build-depends:       base
+  hs-source-dirs:      src
+  default-language:    Haskell2010
